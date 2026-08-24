@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conflito Russo-Ucrâniano</title>
+</head>
+<body>
+
+<header>
+    <h1>Conflito Russo-Ucrâniano</h1>
+    <p>Website com o intuito de trazer informações sobre o conflito Russo-Ucrâniano.</p>
+</header>
+
+<main>
+    <section>
+        <h2>Início do conflito de 2022</h2>
+        <p>O conflito em larga escala começou em 24 de fevereiro de 2022, quando a Rússia lançou uma invasão da Ucrânia após meses de crescente tensão militar e diplomática. Nos meses anteriores, a Rússia havia concentrado tropas perto das fronteiras ucranianas e exigido, entre outras coisas, garantias de segurança relacionadas à expansão da OTAN e à situação da Ucrânia. Em 21 de fevereiro, Putin reconheceu como independentes as áreas separatistas de <a href="https://www.bbc.com/portuguese/internacional-60471555">Donetsk e Luhansk</a> e enviou tropas para essas regiões. Três dias depois, a Rússia iniciou uma ofensiva em larga escala contra a Ucrânia, atacando a partir de Belarus, da Rússia e da Crimeia.</p>
+        <table border="1">
+            <tr>
+                <th>País</th>
+                <th>Capital</th>
+                <th><a href="https://databank.worldbank.org/reports.aspx?country=UKR&source=2&utm" target="_blank">População</a></th>
+                <th><a href="https://databank.worldbank.org/reports.aspx?country=RUS%2CITA%2CESP&series=NY.GDP.MKTP.CD&source=2&utm" target="_blank">PIB</a></th>
+                <th><a href="https://www.globalfirepower.com/global-ranks-previous.php" target="_blank">Ranking militar</a></th>
+            </tr>
+            <tr>
+                <td>Rússia</td>
+                <td>Moscou</td>
+                <td>144 milhões</td>
+                <td>US$ 2.29 T</td>
+                <td>2º</td>
+            </tr>
+            <tr>
+                <td>Ucrânia</td>
+                <td>Kiev</td>
+                <td>41 milhões</td>
+                <td>US$ 161 B</td>
+                <td>22º</td>
+            </tr>
+        </table>
+        <ul>
+            <li>Conflitos recentes</li>
+            <li>Gravações de soldados</li>
+            <li>Gravações de drones</li>
+        </ul>
+    </section>
+</main>
+
+<!--Justificativa da Rússia-->
+
+<section>
+    <h2>Visão da Rússia</h2>
+    <img src="assets/images/russian-flag.webp" alt="Bandeira da Rússia" width="300">
+    <p>A Rússia justificou a invasão alegando preocupações com sua segurança, principalmente a expansão da OTAN em direção às suas fronteiras, além da necessidade de proteger as populações do Donbas. O governo russo também afirmou que pretendia “desmilitarizar” a Ucrânia e reconheceu <a href="https://www.bbc.com/portuguese/internacional-60471555">Donetsk e Luhansk</a> como independentes pouco antes da invasão.</p>
+</section>
+
+<!--Visão da Ucrânia-->
+
+<section>
+    <h2>Visão da Ucrânia</h2>
+    <img src="assets/images/ukrainian-flag.jpg" alt="Bandeira da Ucrânia" width="300">
+    <p>A Ucrânia considera a invasão russa uma agressão contra sua soberania e integridade territorial. Segundo a posição ucraniana, a Rússia utilizou como justificativa questões como a situação do Donbas e a expansão da OTAN, mas a decisão de invadir foi uma violação da independência e do direito da Ucrânia de determinar seu próprio futuro.</p>
+    <a href="https://u24.gov.ua/" target="_blank" rel="noopener noreferrer">Clique aqui para doar para a Ucrânia</a>
+</section>
+
+<!--Formulário-->
+<form>
+    <fieldset>
+        <legend>Formulário sobre conhecimento no conflito Russo-Ucrâniano</legend>
+            <label for="primeiro-nome">primeiro nome:</label>
+            <input type="text" id="primeiro-nome" name="primeiro-nome" required>
+
+            <label for="idade">idade:</label>
+            <input type="number" id="idade" name="idade" required>
+
+            <fieldset>
+                <legend>Você já conhecia o conflito antes de visitar o site?</legend>
+                
+                <input type="radio" id="sim" name="resposta" required>
+                <label for="sim">Sim</label>
+
+                <input type="radio" id="não" name="resposta" required>
+                <label for="não">Não</label>
+            </fieldset>
+
+             <label for="conhecimentos">Compartilhe os seus conhecimentos prévios (caso tivesse algum) sobre o conflito:</label>
+            <input type="text" id="conhecimentos" name="conhecimentos">
+
+            <input type="submit">
+    </fieldset>
+</form>
+
+<footer>Site desenvolvido como forma de estudo da semântica do HTML</footer>
+</body>
+</html>
